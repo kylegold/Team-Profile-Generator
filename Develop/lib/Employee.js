@@ -19,8 +19,10 @@ class Employee {
     }
 
     getRole() {
-        return Employee;
+        console.log(Employee.name)
+        return Employee.name;
     }
 }
-
+const emp = new Employee('kyle', 1, 'kyle@g.com');
+emp.getRole()
 module.exports = Employee;
