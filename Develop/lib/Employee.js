@@ -24,5 +24,5 @@ class Employee {
     }
 }
 const emp = new Employee('kyle', 1, 'kyle@g.com');
-emp.getRole()
+console.log(emp)
 module.exports = Employee;
